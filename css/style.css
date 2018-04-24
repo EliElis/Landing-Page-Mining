@@ -1,0 +1,996 @@
+
+@media (max-width: 543px){
+	.navbar-default{
+		border-width: 0px;
+	}
+	
+	.photo{
+		margin:0 auto;
+		text-align: center;
+	}
+	
+	.adv_holder{
+		margin:0 auto;
+		text-align: center;
+	}
+	.spin_bot, .spin_top{
+		display: none;
+	}
+	
+	#footer{
+	background: url(../images/bg_footer_mobile.jpg) no-repeat top center;
+	
+}
+}
+
+@media (min-width: 544px) and (max-width: 767px) { 
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+	
+	.navbar-default{
+		border-width: 0px;
+	}
+	
+	.photo{
+		margin:0 auto;
+		text-align: center;
+	}
+		.adv_holder{
+		margin:0 auto;
+		text-align: center;
+	}
+	.spin_bot, .spin_top{
+		display: none;
+	}
+	
+		#footer{
+			background: url(../images/bg_footer_mobile.jpg) no-repeat top center;
+}
+}
+ Устройствах среднего (планшеты, 768px и выше)  
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.navbar-default{
+		border: 2px solid  #1ec072;
+
+	}	
+	.spin_bot, .spin_top{
+		display: none;
+	}
+	
+	#footer{
+	background: url(../images/bg_footer_mobile.jpg) no-repeat top center;
+	}
+}
+
+@media (min-width:1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.navbar-default{
+		border: 2px solid  #1ec072;
+	}
+	#footer{
+	background: url(../images/bg_footer.jpg) no-repeat top center;
+	}
+}
+
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.col-xs-1-5 { 
+	width: 20%;
+	float: left;
+}  
+
+body {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	background: #fff;
+	color: #000;
+}
+body.modal-open {
+	overflow: auto;
+	padding-right: 0px !important;
+}
+h1, h2, h3, h4, h5, p {
+	font-weight: 300;
+	margin: 0;
+}
+* {
+	border: none;
+	outline: none!important;
+	margin: 0;
+	padding: 0;
+}
+* {}
+html, body {
+	height: 100%;
+}
+.clear {
+	clear: both;
+}
+@media (min-width:1200px) {
+	.container {
+		width: 1200px;
+	}
+}
+.close {
+	opacity: 1;
+	z-index: 99999;
+	width: 38px;
+	background-image: url(../images/form_cross.png);
+	background-repeat: no-repeat;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	margin-top:20px;
+	top: 0;
+	background-color: transparent;
+}
+.close:hover {
+	opacity: 0.7;
+}
+
+.balck_cross{
+	opacity: 1;
+	z-index: 99999;
+	width: 38px;
+	background-image: url(../images/balck_cross.png);
+	background-repeat: no-repeat;
+	height: 15px;
+	position: absolute;
+	right: 2px;
+	margin-top:20px;
+	top: 0;
+	background-color: transparent;
+}
+
+.balck_cross:hover {
+	opacity: 0.7;
+}
+a {
+	color: #b5526f;
+	text-decoration: none;
+	outline: none!important;
+}
+a:focus {
+	text-decoration: none;
+	outline: none!important;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+::-webkit-input-placeholder {
+	color: #211541;
+	font-size: 20px;
+}
+::-moz-placeholder {
+	color: #211541;
+	font-size: 20px;
+}
+:-moz-placeholder {
+	color: #211541;
+	font-size: 20px;
+}
+:-ms-input-placeholder {
+	color: #211541;
+	font-size: 20px;
+}
+hr {
+	width: 100%;
+}
+.modal-dialog {
+	z-index: 9999;
+}
+.modal-body {
+	position: initial;
+	padding: 0;
+}
+.img-responsive {
+	display: initial;
+}
+#top {
+	background: url(../images/bg1.jpg) no-repeat top center;
+	background-size: cover;
+	padding-bottom: 90px;
+}
+.logo{
+	margin-top:40px;
+}
+.navbar{
+	position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+    font-family: 'DIN Pro Medium';
+	font-size: 16px;
+}
+.navbar-default{
+	background-color: transparent;
+ 
+}
+.navbar{
+	    border-radius: 25px;
+}
+.top_menu{
+	margin-top:40px;
+}
+.navbar-nav{
+	float: none;
+    margin: 0;
+    text-align: center;
+}
+.navbar-nav > li{
+	    float: none;
+    display: inline-block;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color: #1ec072;
+}
+.tel_top{
+text-align: right;
+    margin-top: 40px;	
+}
+.tel_top .fa-phone{
+color: #4e97d6;
+    font-size: 19px;
+    vertical-align: super;
+    padding-right: 5px;
+}
+.number{
+	color: #fff;
+    font-size: 30px;
+    font-family: 'DIN Pro Medium';
+	line-height: 1;
+}
+.time{
+	font-size: 20px;
+color: #1c6499;
+font-family: 'DIN Pro Light';
+line-height: 1;	
+}
+.time span{
+font-family: 'DIN Pro Bold';	
+}
+h1{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #fff;
+    margin-top: 190px;	
+}
+h1 span{
+color: #1ec072;	
+}
+.apparat{
+	    margin-top: 40px;
+
+}
+.kn_1{
+	margin-top: -80px;
+	
+}
+.kn_1 .txt{
+font-family: 'DIN Pro Bold';
+    position: absolute;
+    top: 29px;
+    left: 40px;
+    color: #fff;
+}
+
+.spin_bot{
+	 margin-top: 50px;
+}
+
+spin_top{
+}
+
+#asic{
+	background:#ede9f6;
+	padding-bottom:60px;
+}
+#asic h2{
+font-family: 'DIN Pro Regular';
+font-size: 50px;
+    color: #211541;	
+	text-align: center;
+    margin-top: 60px;
+}
+#asic h2 span{
+color: #4e97d6;
+}
+.antminer{
+	background: #fff;
+    border-top: 8px solid #4e96d5;
+    border-radius: 10px;
+	    position: relative;
+		margin-top: 160px;
+		    padding-bottom: 30px;
+}
+.foto_circle{
+width: 50%;
+    margin: auto;
+    margin-top: -25%;
+}
+.antminer .title{
+	color: #211541;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DIN Pro Medium';
+    margin-top: 10px;
+}
+.antminer .content{
+padding-top: 20px;
+    padding-left: 40px;	
+}
+.antminer .content p{
+font-family: 'DIN Pro Bold';
+font-size: 15px;
+color: #211541;	
+margin-bottom: 17px;
+}
+.antminer .content p span{
+font-family: 'DIN Pro Regular';	
+}
+.haracter{
+font-family: 'DIN Pro Regular';
+font-size: 15px;
+    margin-top: 30px;	
+}
+.haracter a{
+	color: #0842e7;
+	text-decoration: underline;
+}
+.content .price{
+font-family: 'DIN Pro Regular';
+font-size: 20px;
+color: #211541;	
+margin-top: 30px;
+    line-height: 1.875;
+}
+.content .price span{
+font-family: 'DIN Pro Bold';	
+}
+.kn_w{
+	background: #ebf3f5;
+    border-radius: 100px;
+    position: relative;
+	    position: relative;
+		-webkit-box-shadow: 0px 18px 28px 0px rgba(30,192,114,0.41);
+-moz-box-shadow: 0px 18px 28px 0px rgba(30,192,114,0.41);
+box-shadow: 0px 18px 28px 0px rgba(30,192,114,0.41);
+}
+.kn_w:hover{
+box-shadow:none;
+}
+.kn_w:hover .kn_gr{
+width: 100%;
+}
+.kn_w:hover .pdf{
+display:none;
+}
+ .pdf{
+    background: url(../images/pdf.png);
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    top: 16px;
+    right: 20px;
+	z-index:1;
+}
+.kn_gr{
+width: 72%;
+    height: 100%;
+    background: #1ec072;
+    border-radius: 100px;
+color: #fff;
+    display: table;
+    text-align: center;	
+	z-index:2;
+}
+.kn_gr span{
+	display: table-cell;
+    vertical-align: middle;
+	font-family: 'DIN Pro Bold';
+}
+*{
+	transition: all 0.2s ease;
+}
+.little{
+	    width: 86%;
+    margin: auto;
+    margin-top: 30px;
+}
+.plus{
+    position: absolute;
+    color: #1ec072;
+    top: 0px;
+    right: 40px;
+    z-index: 1;
+    font-size: 40px;
+    font-family: 'DIN Pro Bold';
+	
+}
+#ant1{
+position: absolute;
+    overflow: hidden;
+height: max-content;	
+}
+#ant3{
+	position: absolute;
+    overflow: hidden;
+height: max-content;
+}
+#ant2{
+	position: absolute;
+    overflow: hidden;
+height: max-content;
+}
+.ant1{
+	width: 100%;
+}
+.rad{
+	border-radius: 30px;
+}
+.tehinfo{
+background: #21314c;
+    border-radius: 20px;	
+}
+.tehinf{
+	background: #fff;
+ border-top: 7px solid #4e97d6;
+    border-radius: 20px;
+    padding: 50px 50px 20px;	
+}
+.tehinf h3{
+font-family: 'DIN Pro Medium';
+    color: #211541;
+    font-size: 30px;
+    text-align: center;
+}
+.tehinf h5{
+font-family: 'DIN Pro Bold';
+color: #4e97d6;	
+font-size: 18px;
+margin-top: 20px;
+}
+.tehinf p{
+font-family: 'DIN Pro Regular';
+color: #211541;	
+font-size: 15px;
+margin-top: 10px;
+}
+.tehinf p span{
+font-family: 'DIN Pro Bold';	
+}
+.form_teh{
+padding: 0 40px 20px;	
+}
+.form_teh .title{
+font-family: 'DIN Pro Bold';
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;	
+}
+.pole{
+    font-size: 20px;
+    text-align: center;
+    color: #211541;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 5px;	
+}
+.littl{
+	width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.antminer1{
+    border-top: 8px solid #1ebc71;
+    border-radius: 10px;
+	    position: relative;
+		margin-top: 150px;
+		    padding-bottom: 30px;
+			background: #1ebc71; /* Old browsers */
+background: -moz-linear-gradient(top, #1ebc71 0%, #241e46 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1ebc71 0%,#241e46 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1ebc71 0%,#241e46 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ebc71', endColorstr='#241e46',GradientType=0 ); /* IE6-9 */
+}
+.foto_circle{
+width: 50%;
+    margin: auto;
+    margin-top: -25%;
+}
+.antminer1 .title{
+	color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DIN Pro Medium';
+    margin-top: 10px;
+}
+.antminer1 .content{
+padding-top: 20px;
+    padding-left: 40px;	
+}
+.antminer1 .content p{
+font-family: 'DIN Pro Bold';
+font-size: 15px;
+color: #fff;	
+margin-bottom: 17px;
+}
+.antminer1 .content p span{
+font-family: 'DIN Pro Regular';	
+}
+.haracter1{
+font-family: 'DIN Pro Regular';
+font-size: 15px;
+    margin-top: 30px;	
+}
+.haracter1 a{
+	color: #fff;
+	text-decoration: underline;
+}
+.content .price1{
+font-family: 'DIN Pro Regular';
+font-size: 20px;
+color: #fff;	
+margin-top: 30px;
+    line-height: 1.875;
+}
+.content .price1 span{
+font-family: 'DIN Pro Bold';	
+}
+#ferms{
+	background: url(../images/bg2.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+#ferms h2{
+font-family: 'DIN Pro Regular';
+font-size: 50px;
+color: #1ec072;	
+margin-top: 60px;
+    text-align: center;	
+}
+#ferms h2 span{
+color: #fff;	
+}
+.ferms{
+    background: #fff;
+    border-top: 8px solid #4e96d5;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 60px;
+	padding: 0 70px;
+    padding-bottom: 30px;	
+}
+.ferms .title{
+	color: #211541;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'DIN Pro Medium';
+    margin-top: 40px;
+	    line-height: 1;
+}
+.ferm_foto{
+margin-top: 40px;
+text-align: center;	
+}
+.ferms .content{
+    margin-top: 20px;	
+}
+.ferms .content p{
+font-family: 'DIN Pro Bold';
+    font-size: 15px;
+    color: #211541;
+    margin-bottom: 17px;
+line-height: 2;	
+}
+.ferms .content p span{
+	font-family: 'DIN Pro Regular';
+}
+.ferms .price{
+	font-family: 'DIN Pro Regular';
+    font-size: 20px;
+    color: #211541;
+    margin-top: 30px;
+    line-height: 1.875;
+}
+.ferms .price span{
+font-family: 'DIN Pro Bold';
+}
+#server{
+background:#ede9f6;
+padding-bottom: 60px;	
+}
+#server h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #4e97d6;
+	margin-top: 60px;
+    text-align: center;
+	line-height: 1;
+    	
+}
+#server h2 span{
+	color: #211541;
+}
+.photo{
+position: relative;
+    margin-top: 60px;	
+}
+.moon{
+position: absolute;
+    width: 110%;
+    left: -5%;
+    top: -5%;
+    opacity: 0;	
+}
+.photo:hover .moon{
+	opacity: 1;
+	cursor:pointer;
+	transition:0.3s;
+}
+#abonent{
+padding-bottom: 60px;
+    background: url(../images/bg3.jpg) no-repeat;
+    background-size: cover;	
+}
+#abonent h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #fff;
+	margin-top: 60px;
+    text-align: center;
+	line-height: 1;	
+}
+#abonent h2 span{
+color: #1ec072;	
+}
+.abonent{
+text-align: center;
+    margin-top: 40px;	
+}
+.abonent p{
+font-family: 'DIN Pro Bold';
+font-size: 15px;
+    color: #fff;	
+}
+#service{
+background: #ede9f6;
+    padding-bottom: 60px;	
+}
+#service h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #4e97d6;
+	margin-top: 60px;
+    text-align: center;
+	line-height: 1;
+padding-bottom: 40px;	
+}
+#service h2 span{
+color: #211541;		
+}
+.service{
+    margin-top: 10px;	
+}
+.serv_icon{
+background: #211541; /* Old browsers */
+background: -moz-linear-gradient(45deg, #211541 0%, #1ebe73 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #211541 0%,#1ebe73 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #211541 0%,#1ebe73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211541', endColorstr='#1ebe73',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+padding: 0;
+    text-align: center;
+text-align: center;
+    height: 100px;
+    border-radius: 10px 0 0 10px;
+    padding: 25px 0;
+}
+.serv_icon img{
+	
+}
+.serv_r{
+background: #fff;
+    height: 100px;
+    border-radius: 0 10px 10px 0;
+    padding: 0px 20px;
+    display: table;
+}
+.serv_r .txt{
+display: table-cell;
+    vertical-align: middle;	
+}
+.serv_r .txt h4{
+font-family: 'DIN Pro Bold';
+font-size: 20px;
+    color: #211541;	
+}
+.serv_r .txt p{
+font-size: 14px;
+    color: #211541;
+font-family: 'DIN Pro Regular';	
+}
+.chel{
+	margin-top:11px;
+}
+.knopka{
+    background: #1ec072;
+    width: 93%;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 40px;	
+}
+.knopka:hover{
+	background: #1c9d5f;
+}
+#torgi{
+background: url(../images/bg4.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 60px;	
+}
+#torgi h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #1ec072;
+	margin-top: 60px;
+    text-align: center;
+	line-height: 1;	
+}
+#torgi h2 span{
+color: #fff;	
+}
+#torgi p{
+	font-family: 'DIN Pro Bold';
+	font-size: 20px;
+    color: #fff;
+	margin-top: 50px;
+}
+.vipad{
+margin-top: 10px;	
+}
+.p0{
+	    padding: 0;
+}
+.summ{
+	padding: 20px;
+    padding-left: 30px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.souz{
+	font-family: 'DIN Pro Bold';
+	font-size: 20px;
+    color: #1ec072;
+	    margin-top: 25px;
+    text-align: center;
+
+}
+.otst{
+	    margin-top: 10px;
+
+}
+#advantes{
+	background:#ede9f6;
+	padding-bottom:20px;
+}
+#advantes h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #211541;
+	margin-top: 60px;
+	margin-bottom: 30px;
+    text-align: center;
+	line-height: 1;	
+}
+#advantes h2 span{
+color: #4e97d6;	
+}
+
+.adv_holder{
+	padding: 20px;
+
+}
+
+.adv_heading{
+	font-family: 'DIN Pro Bold';
+	font-size: 20px;
+	color:#211541;
+	padding-bottom: 5px;
+}
+
+.adv_text{
+	font-family: 'DIN Pro Regular';
+	font-size:15px;
+	color:#211541;
+}
+
+.adv_row{
+	text-align: center;
+}
+
+#footer{
+	background-size: cover;
+	min-height: 500px;
+	margin: 0;	
+}
+
+.contact_holder{
+	position: absolute;
+	right: 13%;
+	margin-top:150px;
+}
+
+#footer .fa-phone {
+    color: #4e97d6;
+    font-size: 19px;
+    vertical-align: super;
+    padding-right: 5px;
+	    display: inline;
+}
+
+.fa-map-marker {
+	 color: #4e97d6;
+    font-size: 19px;
+	 padding-right: 10px;
+	    display: inline;
+}
+
+
+.footer_h2{
+	font-family: 'DIN Pro Regular';
+    font-size: 50px;
+	color:#ffffff;
+	margin-bottom: 50px;
+	
+}
+
+.footer_h2 span{
+	color:#4e97d6;
+	
+} 
+
+.adress_holder{
+	margin-top: 50px;
+}
+
+.adress{
+font-family: 'DIN Pro Bold';
+	font-size: 20px;
+	color:#ffffff;
+}
+
+/*FORMS*/
+
+.form_bg{
+	padding: 30px;
+	background: url(../images/form_bg.png) no-repeat top center;
+		background-size: cover;
+	text-align: center;
+}
+
+.inp_phone{
+	font-family: 'DIN Pro Bold';
+    font-size: 20px;
+    text-align: center;
+    color: #211541;
+    display: block;
+    width: 80%;
+    padding: 20px 0;
+    margin-top: 70px;
+	margin-left: 50px;
+    border-radius: 5px;	
+}
+
+.btn_form{
+	width:70%;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.form_h2, #asic .form_h2, #service .form_h2{
+font-family: 'DIN Pro Regular';
+    font-size: 50px;
+    color: #1ec072;
+	margin-top: 60px;
+    text-align: center;
+	line-height: 1;	
+}
+
+.form_h2 span, #asic .form_h2 span, #service .form_h2 span{
+color: #fff;	
+}
+
+
+
+
+
+.filter-option{
+	margin: 13px 0px 13px 0px;
+	border-radius: 0;
+	border: 0px;
+}
+
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark
+{
+	color: #1ec072;
+}
+
+
+.dropdown-menu > li > a{
+	font-family: 'DIN Pro Bold';
+	font-size: 15px;
+	color:#211541;
+}
+
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:hover:focus{
+background-color:#1ec072 }
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+	width: 180px;
+}
+
+.kript{
+ border-radius: 0 10px 10px 0;
+	border: 0px;
+    background: #dedde3;
+	max-width: 200px;
+	font-family: 'DIN Pro Bold';
+	font-size: 20px;
+	color:#211541;
+}
+
+.btn{
+	font-size: 18px;
+	 border-radius: 0 10px 10px 0;
+}
+
+.dropdown-menu{
+	 border-radius:10px;
+}
+
+.demo{
+	background-color: #000;
+	color:#fff;
+	width: 100%;
+	margin: 0;
+	padding: 5px 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 18px;
+}
+
+.demo p{
+	margin: 0;
+}
+
+.demo a{
+	color:#fff;
+}
+
